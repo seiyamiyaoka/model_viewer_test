@@ -4,3 +4,8 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+model-viewer {
+  width: 100vw;
+  height: 100vh;
+}
