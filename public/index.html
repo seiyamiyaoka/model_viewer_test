@@ -1,38 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
-	<style>
-		button{
-			display: block;
-			width: 6px;
-			height: 6px;
-			border-radius: 3px;
-			border: 3px solid blue;
-			background-color: blue;
-			box-sizing: border-box;
-		}
-	
-		#annotation{
-			background-color: #dddddd;
-			position: absolute;
-			transform: translate(10px, 10px);
-			border-radius: 10px;
-			padding: 10px;
-		}
-	</style>
-	<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+  <title>Document</title>
 </head>
 <body>
-
-	<model-viewer src="./untitled.glb"
-              ios-src="https://modelviewer.dev/shared-assets/models/Astronaut.usdz"
-              alt="A 3D model of an astronaut"
-              ar
-              auto-rotate
-              camera-controls></model-viewer>
+  <model-viewer
+    src="./untitled.glb"
+    ios-src="https://modelviewer.dev/shared-assets/models/Astronaut.usdz"
+    alt="A 3D model of an astronaut"
+    ar
+    auto-rotate
+    camera-controls
+  ></model-viewer>
 </body>
 </html>
